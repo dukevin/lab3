@@ -12,6 +12,7 @@ function initializePage() {
 	$("#testjs").click(function(e) {
 		$('.jumbotron h1').text("The text was changed!");
 	});
+	$(".project p").hide();
 
 $("#testjs").click(function(){
 	$(this).text("I changed the text!");
